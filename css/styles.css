@@ -70,6 +70,7 @@ body {
 }
 .hero {
   background-color: var(--nav-color);
+  padding: 188px 0 188px;
 }
 .hero .hero-header {
   font-size: 56px;
@@ -77,6 +78,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-color);
   line-height: 1.07;
+  max-width : 496px;
 }
 .hero .hero-btn {
   background-color: #4d5ae5;
@@ -87,6 +89,11 @@ body {
   letter-spacing: 0.04em;
   color: var(--title-color);
   cursor: pointer;
+  display: block;
+  min-width :169px;
+  height: 56px;
+  border: none;
+  border-radius :4px;
 }
 
 .hero .hero-btn:hover,
