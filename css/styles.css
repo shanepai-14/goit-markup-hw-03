@@ -197,6 +197,6 @@ img {
 .section-two .list {
   gap: 24px;
 }
-.section-two .sec-two-list {
+.sec-two-list {
   width: calc((100% - 72px) / 4);
 }
