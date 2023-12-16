@@ -149,3 +149,17 @@ body {
 img {
   display: block;
 }
+.header {
+  border-bottom: #e7e9fc;
+}
+.container {
+  display: flex;
+  width: 1158px;
+  margin: 0;
+
+  padding: 0 15px 0 15px;
+}
+.navigation {
+  display: flex;
+  align-items : center;
+}
