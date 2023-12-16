@@ -94,6 +94,7 @@ body {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin: 0 auto;
 }
 
 .hero .hero-btn:hover,
