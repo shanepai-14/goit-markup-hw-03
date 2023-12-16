@@ -181,7 +181,9 @@ img {
 .section-two {
   padding: 120px 0 120px;
 }
-
+.visually-hidden {
+  visibility: hidden;
+}
 .section-two .list {
   gap: 24px;
 }
