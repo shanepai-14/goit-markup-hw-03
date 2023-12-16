@@ -106,7 +106,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--nav-color);
-  margin-bottom :8px;
+  margin-bottom: 8px;
 }
 .sec-two-par {
   font-size: 16px;
@@ -181,9 +181,7 @@ img {
 .section-two {
   padding: 120px 0 120px;
 }
-.section-two h2 {
-  visibility: hidden;
-}
+
 .section-two .list {
   gap: 24px;
 }
