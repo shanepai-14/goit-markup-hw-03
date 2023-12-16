@@ -78,7 +78,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-color);
   line-height: 1.07;
-  max-width : 496px;
+  max-width: 496px;
 }
 .hero .hero-btn {
   background-color: #4d5ae5;
@@ -90,10 +90,10 @@ body {
   color: var(--title-color);
   cursor: pointer;
   display: block;
-  min-width :169px;
+  min-width: 169px;
   height: 56px;
   border: none;
-  border-radius :4px;
+  border-radius: 4px;
 }
 
 .hero .hero-btn:hover,
@@ -176,4 +176,13 @@ img {
 .nav-list {
   display: flex;
   gap: 40px;
+}
+.section-two {
+  padding: 120px 0 120px;
+}
+.section-two h2 {
+  visibility: hidden;
+}
+.section-two .list {
+  gap: 24px;
 }
