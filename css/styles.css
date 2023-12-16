@@ -146,3 +146,6 @@ body {
 .product-list .sec-two-par {
   color: var(--main-color);
 }
+img {
+  display: block;
+}
