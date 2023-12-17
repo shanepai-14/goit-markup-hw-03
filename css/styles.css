@@ -141,6 +141,7 @@ body {
 }
 .footer {
   background-color: var(--nav-color);
+  padding: 100px 0 100px;
 }
 
 .footer p {
@@ -233,6 +234,7 @@ img {
 }
 .section-four {
   padding: 120px 0 120px;
+  background-color: var(--team-color);
 }
 .section-four h2 {
   margin-bottom: 72px;
@@ -244,6 +246,7 @@ img {
 .sec-four-item {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  background-color: var(--title-color);
 }
 .employees {
   padding: 32px 0;
@@ -251,4 +254,7 @@ img {
 .employees h3,
 .employees p {
   text-align: center;
+}
+.section-four .container {
+  display: block;
 }
