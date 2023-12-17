@@ -43,6 +43,12 @@ body {
 }
 .list {
   list-style-type: none;
+}
+.navigation .nav-list {
+  display: flex;
+  gap: 40px;
+}
+.contacts .list {
   display: flex;
   gap: 40px;
 }
@@ -196,6 +202,7 @@ img {
 }
 .section-two .list {
   gap: 24px;
+  display: flex;
 }
 .section-two .sec-two-list {
   width: calc((100% - 72px) / 4);
