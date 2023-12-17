@@ -9,6 +9,11 @@
   --team-color: #f4f4fd;
   --btn-color: #4d5ae5;
 }
+* {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1440px;
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -176,6 +181,9 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
+}
+.hero .container {
+  display: block;
 }
 .navigation {
   display: flex;
