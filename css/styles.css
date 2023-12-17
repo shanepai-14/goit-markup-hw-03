@@ -49,6 +49,12 @@ body {
 .list {
   list-style-type: none;
 }
+.menu-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
 .navigation .nav-list {
   display: flex;
   gap: 40px;
@@ -152,7 +158,6 @@ body {
 .footer {
   background-color: var(--nav-color);
   padding: 100px 0 100px;
- 
 }
 .footer .link {
   display: inline-block;
@@ -181,6 +186,9 @@ body {
   color: var(--btn-color);
   background-color: var(--team-color);
   font-size: 16px;
+  padding: 12px 24px 12px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 
 .port-btn:hover,
@@ -188,6 +196,7 @@ body {
   color: var(--title-color);
   background-color: #404bbf;
   cursor: pointer;
+  border: 1px solid transparent;
 }
 .product-list .link {
   text-decoration: none;
@@ -283,4 +292,7 @@ img {
 }
 .section-four .container {
   display: block;
+}
+.portfolio-sec {
+  padding: 96px 0 120px 0;
 }
