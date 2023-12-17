@@ -225,7 +225,7 @@ img {
   display: flex;
   gap: 24px;
 }
-.sec-four-item {
+.sec-three-item {
   width: calc((100% - 48px) / 3);
 }
 .section-three .container {
