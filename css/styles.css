@@ -9,6 +9,11 @@
   --team-color: #f4f4fd;
   --btn-color: #4d5ae5;
 }
+* {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 100%;
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -87,6 +92,7 @@ body {
   max-width: 496px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 48px;
 }
 .hero .hero-btn {
   background-color: #4d5ae5;
@@ -157,6 +163,7 @@ body {
   text-transform: none;
   font-weight: 400;
   font-style: normal;
+  margin-left: 0;
 }
 .port-btn {
   font-family: var(--main-font);
@@ -186,7 +193,7 @@ img {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.header .container{
+.header .container {
   justify-content: space-around;
 }
 .container {
@@ -201,7 +208,6 @@ img {
 .navigation {
   display: flex;
   align-items: center;
-
 }
 .nav-list {
   display: flex;
