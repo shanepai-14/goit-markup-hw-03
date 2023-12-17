@@ -53,6 +53,10 @@ body {
   display: flex;
   gap: 40px;
 }
+.navigation {
+  display: flex;
+  align-items: center;
+}
 .contacts .list {
   display: flex;
   gap: 40px;
@@ -71,6 +75,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+.contact-info{
+  padding: 24px 0;
 }
 .contacts {
   font-style: normal;
@@ -205,9 +212,8 @@ img {
 .hero .container {
   display: block;
 }
-.navigation {
-  display: flex;
-  align-items: center;
+.navigation .link {
+  padding: 24px 0;
 }
 .nav-list {
   display: flex;
