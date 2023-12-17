@@ -215,3 +215,19 @@ img {
 .section-two .sec-two-list {
   width: calc((100% - 72px) / 4);
 }
+.section-three {
+  padding-bottom: 120px;
+}
+.section-three h2 {
+  margin-bottom: 72px;
+}
+.section-three .list {
+  display: flex;
+  gap: 24px;
+}
+.sec-four-item {
+  width: calc((100% - 48px) / 3);
+}
+.section-three .container {
+  display: block;
+}
