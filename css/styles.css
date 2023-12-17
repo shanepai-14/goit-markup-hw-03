@@ -85,6 +85,8 @@ body {
   color: var(--title-color);
   line-height: 1.07;
   max-width: 496px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .hero .hero-btn {
   background-color: #4d5ae5;
