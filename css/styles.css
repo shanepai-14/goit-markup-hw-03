@@ -76,7 +76,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.contact-info{
+.contact-info {
   padding: 24px 0;
 }
 .contacts {
@@ -151,7 +151,7 @@ body {
 }
 .footer {
   background-color: var(--nav-color);
-  padding: 100px 0 100px;
+  padding: 100px 0 100px 156px;
 }
 .footer .link {
   display: inline-block;
