@@ -197,6 +197,6 @@ img {
 .section-two .list {
   gap: 24px;
 }
-.sec-two-list {
+/* .sec-two-list {
   flex-basis: calc((100% - 72px) / 4);
-}
+} */
