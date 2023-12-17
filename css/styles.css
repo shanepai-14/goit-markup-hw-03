@@ -198,5 +198,5 @@ img {
   gap: 24px;
 }
 .sec-two-list {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
