@@ -204,6 +204,23 @@ body {
 .product-list .sec-two-par {
   color: var(--main-color);
 }
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.product-item {
+  width: calc((100% - 48px) / 3);
+}
+.product-item .container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.product-item .container h2 {
+  margin-bottom: 8px;
+}
 img {
   display: block;
 }
