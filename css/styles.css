@@ -9,11 +9,6 @@
   --team-color: #f4f4fd;
   --btn-color: #4d5ae5;
 }
-* {
-  margin: 0 auto;
-  padding: 0;
-  max-width: 1440px;
-}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -143,11 +138,23 @@ body {
   background-color: var(--nav-color);
   padding: 100px 0 100px;
 }
+.footer .link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.footer .container {
+  display: block;
+}
 
 .footer p {
   line-height: 1.5;
   color: var(--team-color);
   letter-spacing: 0.02em;
+  max-width: 264px;
+  font-size: 16px;
+  text-transform: none;
+  font-weight: 400;
+  font-style: normal;
 }
 .port-btn {
   font-family: var(--main-font);
