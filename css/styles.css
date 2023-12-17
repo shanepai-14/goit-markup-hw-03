@@ -231,3 +231,24 @@ img {
 .section-three .container {
   display: block;
 }
+.section-four {
+  padding: 120px 0 120px;
+}
+.section-four h2 {
+  margin-bottom: 72px;
+}
+.section-four .list {
+  display: flex;
+  gap: 24px;
+}
+.sec-four-item {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.employees {
+  padding: 32px 0;
+}
+.employees h3,
+.employees p {
+  text-align: center;
+}
