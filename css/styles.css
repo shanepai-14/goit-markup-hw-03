@@ -151,7 +151,8 @@ body {
 }
 .footer {
   background-color: var(--nav-color);
-  padding: 100px 0 100px 156px;
+  padding: 100px 0 100px;
+ 
 }
 .footer .link {
   display: inline-block;
